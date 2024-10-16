@@ -103,10 +103,13 @@ anova(best.model,Perchwtall)
 ```
 
 
-### Best Models. 
-The best model is all variables.  
-### Best Two regressor model. 
-The best model using two variables is height and width.  
+### Best Models.   
+
+The best model is all variables.    
+
+### Best Two regressor model.   
+
+The best model using two variables is height and width.    
 
 ## Pike
 
@@ -149,11 +152,15 @@ anova(best.model,Pikewtall)
 ```
 
 
-### Best Models
+### Best Models. 
 
-### Best Two regressor model
+The best model is all variables.  
 
-## Roach
+### Best Two regressor model. 
+
+The best model using two variables are Length 1 and Length 3.  
+
+## Roach. 
 
 ```{r}
 Roachwtall=lm(Weight~.-Weight,data=Roach)
@@ -195,8 +202,16 @@ anova(best.model,Roachwtall)
 ```
 
 
-### Best Models
+### Best Models. 
 
-### Best Two regressor model
+The best model is all variables.    
 
-## Final Summary Statements
+### Best Two regressor model. 
+
+The best model using two variables are Length 3 and Width.   
+
+## Final Summary Statements. 
+
+Perch= The best model using two variables is height and width.  
+Pike= The best model using two variables are Length 1 and Length 3.  
+Roach=The best model using two variables are Length 3 and Width.  
